@@ -1,0 +1,67 @@
+Companies racing to develop more powerful artificial intelligence are rapidly nearing a new problem: The internet might be too small for their plans.
+
+Ever more powerful systems developed by OpenAI, Google and others require larger oceans of information to learn from. That demand is straining the available pool of quality public data online at the same time that some data owners are blocking access to AI companies.
+
+Some executives and researchers say the industry’s need for high-quality text data could outstrip supply within two years, potentially slowing AI’s development.
+
+AI companies are hunting for untapped information sources, and rethinking how they train these systems. OpenAI, the maker of ChatGPT, has discussed training its next model, GPT-5, on transcriptions of public YouTube videos, people familiar with the matter said.
+
+Companies also are experimenting with using AI-generated, or synthetic, data as training material—an approach many researchers say could actually cause crippling malfunctions.
+
+These efforts are often secret, because executives think solutions could be a competitive advantage.
+
+The data shortage “is a frontier research problem,” said Ari Morcos, an AI researcher who worked at Meta Platforms and Google’s DeepMind unit before founding DatologyAI last year. His company, whose backers include a number of AI pioneers, builds tools to improve data selection, which could help companies train AI models for cheaper. “There is no established way of doing this.”
+
+Data is among several essential AI resources in short supply. The chips needed to run what are called large-language models behind ChatGPT, Google’s Gemini and other AI bots also are scarce. And industry leaders worry about a dearth of data centers and the electricity needed to power them.
+
+AI language models are built using text vacuumed up from the internet, including scientific research, news articles and Wikipedia entries. That material is broken into tokens—words and parts of words that the models use to learn how to formulate humanlike expressions.
+
+Generally, AI models become more capable the more data they train on. OpenAI bet big on this approach, helping it become the most prominent AI company in the world.
+
+OpenAI doesn’t disclose details of the training material for its current most-advanced language model, called GPT-4, which has set the standard for advanced generative AI systems.
+
+But Pablo Villalobos, who studies artificial intelligence for research institute Epoch, estimated that GPT-4 was trained on as many as 12 trillion tokens. Based on a computer-science principle called the Chinchilla scaling laws, an AI system like GPT-5 would need 60 trillion to 100 trillion tokens of data if researchers continued to follow the current growth trajectory, Villalobos and other researchers have estimated.
+
+Harnessing all the high-quality language and image data available could still leave a shortfall of 10 trillion to 20 trillion tokens or more, Villalobos said. And it isn’t clear how to bridge that gap.
+
+Two years ago, Villalobos and his colleagues wrote that there was a 50% chance that the demand for high-quality data would outstrip supply by mid-2024 and a 90% chance that it would happen by 2026. They have since become a bit more optimistic, and plan to update their estimate to 2028.
+
+Most of the data available online is useless for AI training because it contains flaws such as sentence fragments or doesn’t add to a model’s knowledge. Villalobos estimated that only a sliver of the internet is useful for such training—perhaps just one-tenth of the information gathered by the nonprofit Common Crawl, whose web archive is widely used by AI developers.
+
+At the same time, social-media platforms, news publishers and others have been curbing access to their data for AI training over concerns about issues including fair compensation. And there is little public will to hand over private conversational data—such as chats over iMessage—to help train these models.
+
+Mark Zuckerberg recently touted Meta’s access to data on its platforms as a significant advantage in its AI efforts. He said Meta can mine hundreds of billions of publicly shared images and videos across its networks, including Facebook and Instagram, that are collectively larger than most commonly used data sets. It isn’t clear what percentage of that data would be considered high quality.
+
+One strategy used by DatologyAI, the data-selection-tool startup, is called curriculum learning, in which data is fed to language models in a specific order in hopes that the AI will form smarter connections between concepts. In a 2022 paper, DatologyAI’s Morcos and co-authors estimated that models can achieve the same results with half the data—if it is the right data—potentially lowering the immense cost of training and running large generative AI systems.
+
+Other research so far suggests the curriculum learning method hasn’t been effective, but Morcos says they are continuing to adapt their approach.
+
+“This is the dirty secret of deep learning: It’s throwing spaghetti against the wall,” said Morcos.
+
+Some tech companies, including OpenAI partner Microsoft, are building smaller language models that are a fraction of the size of GPT-4 but could accomplish specific objectives.
+
+OpenAI Chief Executive Sam Altman has indicated the company is working on new methods to train future models. “I think we’re at the end of the era where it’s going to be these giant, giant models,” he said at a conference last year. “And we’ll make them better in other ways.”
+
+OpenAI also has discussed creating a data market where it could build a way to attribute how much value each individual data point contributes to the final trained model and pay the provider of that content, people familiar with the matter said.
+
+This same idea is being discussed within Google. But researchers have so far struggled to build such a system and it isn’t clear whether they will ever find a breakthrough.
+
+OpenAI is also working to gather everything useful that is already out there. Executives have discussed transcribing high-quality examples of video and audio on the internet using Whisper, its automatic speech-recognition tool, people familiar with the matter said. Some of that would be through public YouTube videos, a subset of which were already used to train GPT-4, the people said.
+
+“Our data sets are unique, and we curate them to help our models’ understanding of the world,” a spokeswoman for OpenAI said, adding that it draws from publicly available content and gets nonpublic data through partnerships.
+
+Google didn’t return a request for comment.
+
+Companies also are experimenting with making their own data.
+
+Feeding a model text that is itself generated by AI is considered the computer-science version of inbreeding. Such a model tends to produce nonsense, which some researchers call “model collapse.”
+
+In one experiment, discussed in a research paper last year, Canadian and British researchers found that the later generation of such a model, when asked to discuss 14th century English architecture, babbled about nonexistent species of jack rabbits.
+
+Researchers at OpenAI and Anthropic are trying to avoid these problems by creating so-called synthetic data of higher quality.
+
+In a recent interview, Anthropic’s chief scientist, Jared Kaplan, said some types of synthetic data can be helpful. Anthropic said it used “data we generate internally” to inform its latest versions of its Claude models. OpenAI also is exploring synthetic data generation, the spokeswoman said.
+
+Many who study the data issue are ultimately sanguine that solutions will emerge. Villalobos compares it to “peak oil,” the fear that oil production could top out and start an economically painful collapse. That concern has proven inaccurate thanks to new technology, such as fracking in the early 2000s.
+
+It is possible that the AI world could see a similar development, he says. “The biggest uncertainty is what breakthroughs you’ll see.”
